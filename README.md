@@ -41,22 +41,9 @@ Exemplos de pacotes que fornecem isso:
     git clone [https://github.com/SeuUsuario/NomeDoSeuRepositorio.git](https://github.com/SeuUsuario/NomeDoSeuRepositorio.git)
     cd NomeDoSeuRepositorio
     ```
-2.  **Crie um arquivo de configuração de banco de dados:**
-    Na raiz do projeto (na mesma pasta onde está este `README.md`), crie um novo arquivo chamado `db_config.php`.
+2.  **Altere o arquivo de conexão com o banco de dados:**
+    Na raiz do projeto (na mesma pasta onde está este `README.md`), altere o arquivo chamado `db_config.php` com as informações do seu banco de dados.
 
-    **Conteúdo de `db_config.php`:**
-    ```php
-    <?php
-    // Arquivo de configuração do Banco de Dados
-    // Este arquivo NÃO deve ser enviado para o GitHub!
-
-    define('DB_SERVER', '127.0.0.1'); // Geralmente 'localhost' ou '127.0.0.1'
-    define('DB_USERNAME', 'root');   // Seu usuário do MySQL/MariaDB
-    define('DB_PASSWORD', '');     // Sua senha do MySQL/MariaDB (vazia para XAMPP/WAMP padrão)
-    define('DB_NAME', 'bdteste');  // Nome do banco de dados que você criou
-    ?>
-    ```
-    **Importante:** Preencha `DB_USERNAME` e `DB_PASSWORD` com as credenciais do seu próprio ambiente de banco de dados.
 
 ## Como Executar
 
